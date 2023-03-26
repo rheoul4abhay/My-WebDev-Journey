@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm&display=swap");
+body {
+  font-family: sans-serif;
+  width: 1160px;
+  margin: auto;
+  max-width: 100%;
+  background: #1d1d1d;
+  color: white;
+  word-spacing: 3px;
+}
+.nav-list {
+  background: rgba(0, 0, 0, 0.25);
+  display: inline-flex;
+  width: 100%;
+  padding: 15px 0;
+  border: solid rgb(70, 70, 70);
+  border-radius: 8px;
+}
+.nav-title {
+  word-spacing: 7px;
+  list-style: none;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0 150px;
+}
+.nav-list a {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+}
+#active {
+  text-decoration: underline;
+  text-underline-position: under;
+  color: white;
+}
+h1 {
+  font-family: "Charm", cursive;
+  text-align: center;
+  text-underline-position: under;
+  text-decoration: underline;
+}
+figure img {
+  border: solid rgb(143, 255, 143);
+  border-radius: 10px;
+  margin: 0 110px;
+}
+figure figcaption {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Charm", cursive;
+}
+article {
+  text-align: center;
+  padding: 10px;
+  color: #b3f798;
+  font-style: italic;
+}
+.accessories-list {
+  padding: 10px;
+  text-align: justify;
+}
+.main-list {
+  border: solid grey;
+  margin-left: 375px;
+  width: 30%;
+  height: 100%;
+  list-style-position: inside;
+}
+.main-list p {
+  color: rgb(144, 233, 211);
+  text-align: center;
+  padding: 5px;
+}
+.main-list ul li {
+  padding: 5px;
+  color: rgb(179, 131, 255);
+  list-style-image: url(images/tick-image.png);
+}
+section {
+  text-align: center;
+  padding: 5px;
+}
+section h3 {
+  text-transform: capitalize;
+  padding: 5px;
+  text-align: center;
+  color: rgba(200, 200, 200);
+  font-weight: 600;
+  text-underline-position: under;
+  text-decoration: underline;
+}
+section p {
+  color: #ffc7b8e3;
+  font-style: italic;
+}
