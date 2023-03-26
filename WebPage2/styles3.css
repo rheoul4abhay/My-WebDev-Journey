@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Charm&display=swap");
+
+body {
+  color: white;
+  max-width: 95%;
+  width:1160px;
+  background: #222222;
+  margin:0 auto;
+}
+.nav-list{
+  width:100%;
+  background: rgba(14, 13, 13, 0.25);
+  border:solid rgb(70, 70, 70);
+  border-radius: 8px;
+  display:flex;
+  padding:15px 0;
+}
+.nav-title{
+  list-style:none;
+  padding:0 150px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:20px;
+  font-weight:600;
+  word-spacing:7px;
+}
+.nav-list a{
+  text-decoration: none;
+  color:rgb(200, 200, 200);
+}
+h1 {
+  font-family: "Charm", cursive;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top:40px;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  word-spacing: 4px;
+  text-align: center;
+  padding: 10px;
+}
+article h2 {
+  font-family: "Charm", cursive;
+}
+.images-div{
+  margin-top:0px;
+  display:inline-flex;
+  width:100%;
+  background:rgb(54, 54, 54);
+  height:470px;
+  border-radius: 10px;
+}
+.accessory-images{
+  width:28.33%;
+  padding:1%;
+  margin:1%;
+  margin-top:0;
+}
+.accessory-images img{
+  width:355px;
+  height:330px;
+  display:inline-flex;
+  border: solid #525151 5px;
+  border-radius: 10px;
+}
+#active{
+  text-decoration: underline;
+  text-underline-position:under;
+  color:white;
+}
+.accessory-images h2{
+  text-align: center;
+  color: #f1fcff;
+}
+h3{
+  text-align: center;
+  padding-top:40px;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size:24px;
+  font-weight:400;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.pricing-div{
+  display:inline-flex;
+  width:100%;
+  margin-top:40px;
+  }
+  .accessory-pricing{
+  background: #181717;
+  width:29.33%;
+  padding:1%;
+  margin:1%;
+  border: solid rgb(49, 49, 49);
+  border-radius: 15px;
+}
+.accessory-pricing h2{
+  color:#06af00;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.accessory-pricing ul{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(213, 240, 255);
+  font-weight: 500;
+  font-size:15px;
+  list-style-image: url(images/tick-image.png);
+}
+.brandnames{
+  list-style:none;
+  padding-top:5px;
+  text-decoration:underline;
+  padding:10px;
+}
