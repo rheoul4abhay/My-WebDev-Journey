@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&family=Saira+Condensed&display=swap');
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    font-family: 'Saira', sans-serif;
+    background:#535c68;
+}
+.container{
+    user-select:none;
+    width:800px;
+    color:#fff;
+    text-align: center;
+    margin:30px auto;
+}
+.container img{
+    width:400px;
+    height:250px;
+}
+h1{
+    font-size:2.7em;
+    text-transform:uppercase;
+    margin-top:-5px;
+}
+button {
+    background:#535c68;
+    color:#fff;
+    width:200px;
+    height:60px;
+    border-radius:10px;
+    outline:none;
+    border: 2px solid #fff;
+    font-family: 'Saira';
+    font-size:1.5em;
+}
+button:hover{
+    background:#ffd32a;
+    color:#fff;
+    border:2px solid #fff;
+    text-transform: uppercase;
+    font-weight:600;
+}
+#btn-go{
+    margin-top:-30px;
+    font-size:1.06em;
+    font-weight:600;
+}
+#btn-start{
+    margin-right:10px;
+}
+#btn-stop{
+    margin-right:-10px;
+}
+#btn-retry{
+    margin-left:20px;
+}
+#btn-start:hover{
+    background:#2ecc71;
+    border:2px solid #fff;
+}
+#btn-stop:hover{
+    background:#ff5252;
+    border:2px solid #fff;
+}
+#btn-retry:hover{
+    background:#6c5ce7;
+    border:2px solid #fff;
+}
+#sec,#colon,#milliSec{
+    font-size:3.4em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#message{
+    font-size:1.5em;
+}
+p.null{
+    display:none;
+}
+button.goNull{
+    display:none;
+}
+button.btnNull{
+    display:none;
+}
