@@ -70,13 +70,13 @@ stopBtn.onclick = function () {
   if (sec < 4) {
     message.innerHTML = "Try again,you pressed stop earlier!";
   }
-  if (sec >= 4 && sec < 5) {
+  else if (sec >= 4 && sec < 5) {
     message.innerHTML = "Congrats,your reflex falls between 150-200ms.";
   }
-  if (sec >= 5 || sec < 6) {
+  else if (sec >= 5 || sec < 6) {
     message.innerHTML = "Cool,your reflex falls between 200-250ms.";
   }
-  if (sec >=6 ){
+  else if (sec >=6 ){
     message.innerHTML = "Alas! You better need to look after your reflexes.";
   }
 };
