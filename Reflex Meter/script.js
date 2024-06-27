@@ -68,15 +68,15 @@ stopBtn.onclick = function () {
   retryBtn.disabled = false;
 
   if (sec < 4) {
-    message.innerHTML = "Try again,you pressed stop earlier!";
+    message.innerHTML = "Try again,you pressed stop button earlier!";
   }
-  else if (sec >= 4 && sec < 5) {
-    message.innerHTML = "Congrats,your reflex falls between 150-200ms.";
+  else if (sec >= 5 && sec < 6) {
+    message.innerHTML = "Unreal! Your reflex falls between 150-200ms.";
   }
-  else if (sec >= 5 || sec < 6) {
-    message.innerHTML = "Cool,your reflex falls between 200-250ms.";
+  else if (sec >= 6 && sec < 7) {
+    message.innerHTML = "Cool, your reflex falls between 200-250ms.";
   }
-  else if (sec >=6 ){
+  else {
     message.innerHTML = "Alas! You better need to look after your reflexes.";
   }
 };
@@ -94,5 +94,5 @@ retryBtn.onclick = function () {
   message.classList.remove("null");
   message.classList.add("message");
   message.innerHTML =
-    " Try to stop the timer between 5 to 7s as faster as you can.";
+    " Try to stop the timer between 5 to 7 seconds as faster as you can.";
 };
