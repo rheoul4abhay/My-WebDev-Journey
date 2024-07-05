@@ -67,7 +67,7 @@ stopBtn.onclick = function () {
   startBtn.disabled = true;
   retryBtn.disabled = false;
 
-  if (sec < 4) {
+  if (sec < 5) {
     message.innerHTML = "Try again,you pressed stop button earlier!";
   }
   else if (sec >= 5 && sec < 6) {
